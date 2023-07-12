@@ -28,7 +28,7 @@ s.requires_arc        = false
 
 s.preserve_paths      = 'Sources/MarketoFramework.xcframework'
 s.public_header_files = 'Sources/MarketoFramework.xcframework/**/*.h'
-s.vendored_frameworks = "MarketoFramework.xcframework"
+s.vendored_frameworks = "Sources/MarketoFramework.xcframework"
 s.frameworks          = 'SystemConfiguration', 'Security', 'CoreTelephony'
 s.library			  = 'sqlite3'
 s.resource_bundles 	  = {
