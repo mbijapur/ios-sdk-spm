@@ -26,8 +26,8 @@ s.source_files		  = 'Sources/MarketoFramework.xcframework/**/*.h'
 s.platform            = :ios, '12.0'
 s.requires_arc        = false
 
-s.preserve_paths      = 'MarketoFramework.xcframework'
-s.public_header_files = 'MarketoFramework.xcframework/**/*.h'
+s.preserve_paths      = 'Sources/MarketoFramework.xcframework'
+s.public_header_files = 'Sources/MarketoFramework.xcframework/**/*.h'
 s.vendored_frameworks = "MarketoFramework.xcframework"
 s.frameworks          = 'SystemConfiguration', 'Security', 'CoreTelephony'
 s.library			  = 'sqlite3'
